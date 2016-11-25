@@ -1,0 +1,35 @@
+[
+	{
+		"imgName": "nikhil.jpg",
+		"name": "Nikhil Sangwan",
+		"email": "nikhil.sangwan95@gmail.com",
+		"age": "21",
+		"gender": "Male",
+		"address": "172/21-A, Mangolpur Kalan, sec-2, rohini, new delhi",
+		"about": "hi!! i'm a developer, gamer and a person",
+		"secondary_percentage": "81",
+		"secondary_school": "Mother Divine Public School",
+		"secondary_board": "CBSE",
+		"senior_secondary_percentage": "92",
+		"senior_secondary_school": "Mother Divine Public School",
+		"senior_secondary_board": "CBSE",
+		"collage_name": "JIIT",
+		"graduation_course": "b.tech",
+		"gpa": "6.1",
+		"internships": [
+			"Instarefr.com",
+			"Nethues technologies"
+			],
+		"activities": [
+			"organise sketching compitition", 
+			"organize cs 1.6 compitition"
+			],
+		"participation": [
+			"participate in cs 1.6",
+			"participate in COD"
+			],
+		"awards": [
+			"gold medal in taekwondo"
+			]
+	}
+]

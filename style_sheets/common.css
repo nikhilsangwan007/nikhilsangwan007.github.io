@@ -1,0 +1,61 @@
+/*CLASSES*/
+.toolbar {
+	height: 6em;
+	background-color: #009688 !important;
+}
+.navList {
+	margin: auto;
+}
+.brand span {
+	font-family: monospace;
+	font-size: 1em;
+	color: white;
+}
+.brand:hover {
+	cursor: pointer;
+}
+.false_toolbar {
+	background-color: #009688 !important;
+	min-height: 300px;
+	background-color: blue;
+}
+.common_card {
+	background-color: whitesmoke;
+	margin: auto; 
+	margin-top: -10em;
+	width: 80%;
+	min-height: 500px;
+}
+.page_heading {
+	margin-top: auto;
+	text-align: center;
+	color: #212121;
+}
+.templates {
+	overflow: inherit;
+}
+.unorderd_list {
+	margin: 0px;
+}
+.menu_icon {
+	margin: auto;
+	margin-right: 0px;
+}
+/*RESPONSIVE CSS*/
+@media screen and (max-width: 500px) {
+	.toolbar {
+		height: 12em;
+	}
+	.brand {
+		margin-top: auto !important;
+		margin-bottom: auto !important;
+	}
+	.toolbar md-list {
+		margin-top: auto;
+		display: block;
+	}
+} 
+
+h3 {
+	color: whitesmoke !important;
+}

@@ -1,0 +1,58 @@
+<section>
+	<div class="false_toolbar" flex="100"></div>
+	<md-card class="common_card">
+		<div class="user_image"><img src="images/nikhil.jpg" height="170px" width="170px"></div>
+		<md-card-content class="common_card_content">
+			<h2 class="page_heading"><span><strong>General</strong></span></h2>
+			<md-list flex ng-repeat="item in info">
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Full Name</strong></span>
+			            <span>{{ item.name }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon> 
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Email</strong></span>
+			            <span>{{ item.email }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Age</strong></span>
+			            <span>{{ item.age }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Gender</strong></span>
+			            <span>{{ item.gender }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Address</strong></span>
+			            <span>{{ item.address }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>About</strong></span>
+			            <span>{{ item.about }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		    </md-list>
+		</md-card-content>
+	</md-card>
+</section>

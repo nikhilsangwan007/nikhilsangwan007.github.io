@@ -1,0 +1,12 @@
+.user_image img {
+	object-fit: cover;
+	margin-top: -4em;
+    margin-left: 2%;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 5px;
+	border-color: white; 
+}
+md-divider {
+	width: 90%;
+}

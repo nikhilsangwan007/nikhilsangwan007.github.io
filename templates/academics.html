@@ -1,0 +1,93 @@
+<section flex="33">
+	<div class="false_toolbar" flex="100"></div>
+	<md-card class="common_card">
+		<md-card-content class="common_card_content">
+			<h2 class="page_heading"><span>academics</span></h2>
+			<md-list flex ng-repeat="item in info">
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Collage Name</strong></span>
+			            <span>{{ item.collage_name }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Course</strong></span>
+			            <span>{{ item.graduation_course }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>GPA</strong></span>
+			            <span>{{ item.gpa }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Senior Secondary School</strong></span>
+			            <span>{{ item.senior_secondary_school }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong> 12th Board</strong></span>
+			            <span>{{ item.senior_secondary_board }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>12th Aggrigate</strong></span>
+			            <span>{{ item.senior_secondary_percentage }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Secondary School</strong></span>
+			            <span>{{ item.secondary_school }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>10th Board</strong></span>
+			            <span>{{ item.secondary_board }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>10th Aggrigate</strong></span>
+			            <span>{{ item.secondary_percentage }}</span>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Work Experience</strong></span>
+			            <ul class="unorderd_list" ng-repeat="n in item.internships track by $index"">
+		        			<li>	
+		        				<span>{{n}}</span>
+			            		<span>{{ item.internships[n] }}</span>
+		        			</li>
+		        		</ul>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		</md-card-content>
+	</md-card>
+</section>

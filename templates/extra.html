@@ -1,0 +1,48 @@
+<section>
+	<div class="false_toolbar" flex="100"></div>
+	<md-card class="common_card">
+		<md-card-content class="common_card_content">
+			<h2 class="page_heading"><span>EXTRA</span></h2>
+			<md-list flex ng-repeat="item in info">
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Activites</strong></span>
+		        		<ul class="unorderd_list" ng-repeat="n in item.activities track by $index"">
+		        			<li>	
+		        				<span>{{n}}</span>
+			            		<span>{{ item.activities[n] }}</span>
+		        			</li>
+		        		</ul>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Participation</strong></span>
+			            <ul class="unorderd_list" ng-repeat="n in item.participation track by $index"">
+		        			<li>	
+		        				<span>{{n}}</span>
+			            		<span>{{ item.participation[n] }}</span>
+		        			</li>
+		        		</ul>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		        <md-divider ></md-divider>
+		        <md-list-item class="md-3-line" ng-click="null">
+		        	<div class="md-list-item-text" layout="column">
+		        		<span><strong>Awards</strong></span>
+			            <ul class="unorderd_list" ng-repeat="n in item.awards track by $index"">
+		        			<li>	
+		        				<span>{{n}}</span>
+			            		<span>{{ item.awards[n] }}</span>
+		        			</li>
+		        		</ul>
+		        	</div>
+		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
+		        </md-list-item>
+		    </md-list>
+		</md-card-content>
+	</md-card>
+</section>

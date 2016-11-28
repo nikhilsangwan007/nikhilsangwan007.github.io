@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ngRoute', 'ngMaterial', 'ngMdIcons']);
+var app = angular.module('myApp', ['ngRoute', 'ngMaterial', 'ngMdIcons', 'xeditable']);
 
 	app.config([
 		'$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

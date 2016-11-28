@@ -5,15 +5,15 @@
 		<md-card-content class="common_card_content">
 			<h2 class="page_heading"><span><strong>General</strong></span></h2>
 			<md-list flex ng-repeat="item in info">
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.name" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Full Name</strong></span>
-			            <span>{{ item.name }}</span>
+			            <span>{{ item.name || 'empty' }}</span>
 		        	</div>
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon> 
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line"  editable-text="item.email" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Email</strong></span>
 			            <span>{{ item.email }}</span>
@@ -21,7 +21,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.age" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Age</strong></span>
 			            <span>{{ item.age }}</span>
@@ -29,7 +29,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.gender" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Gender</strong></span>
 			            <span>{{ item.gender }}</span>
@@ -37,7 +37,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.address" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Address</strong></span>
 			            <span>{{ item.address }}</span>
@@ -45,7 +45,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.about" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>About</strong></span>
 			            <span>{{ item.about }}</span>

@@ -4,7 +4,7 @@
 		<md-card-content class="common_card_content">
 			<h2 class="page_heading"><span>academics</span></h2>
 			<md-list flex ng-repeat="item in info">
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.collage_name" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Collage Name</strong></span>
 			            <span>{{ item.collage_name }}</span>
@@ -12,7 +12,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.graduation_course" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Course</strong></span>
 			            <span>{{ item.graduation_course }}</span>
@@ -20,7 +20,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.gpa" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>GPA</strong></span>
 			            <span>{{ item.gpa }}</span>
@@ -28,7 +28,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.senior_secondary_school" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Senior Secondary School</strong></span>
 			            <span>{{ item.senior_secondary_school }}</span>
@@ -36,7 +36,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.senior_secondary_board" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong> 12th Board</strong></span>
 			            <span>{{ item.senior_secondary_board }}</span>
@@ -44,7 +44,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.senior_secondary_percentage" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>12th Aggrigate</strong></span>
 			            <span>{{ item.senior_secondary_percentage }}</span>
@@ -52,7 +52,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.secondary_school" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Secondary School</strong></span>
 			            <span>{{ item.secondary_school }}</span>
@@ -60,7 +60,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.secondary_board" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>10th Board</strong></span>
 			            <span>{{ item.secondary_board }}</span>
@@ -68,7 +68,7 @@
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
 		        <md-divider ></md-divider>
-		        <md-list-item class="md-3-line" ng-click="null">
+		        <md-list-item class="md-3-line" editable-text="item.secondary_percentage" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>10th Aggrigate</strong></span>
 			            <span>{{ item.secondary_percentage }}</span>
@@ -79,12 +79,12 @@
 		        <md-list-item class="md-3-line" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Work Experience</strong></span>
-			            <ul class="unorderd_list" ng-repeat="n in item.internships track by $index"">
-		        			<li>	
+		        		<md-list>
+		        			<md-list-item editable-text="item.internships[$index]" ng-repeat="n in item.internships track by $index">
 		        				<span>{{n}}</span>
 			            		<span>{{ item.internships[n] }}</span>
-		        			</li>
-		        		</ul>
+		        			</md-list-item>
+		        		</md-list>
 		        	</div>
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>

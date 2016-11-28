@@ -13,6 +13,10 @@ angular.module('myApp')
 		}
 	}])
 
+	app.run(function(editableOptions) {
+		editableOptions.theme = 'bs3';
+	})
+
 	.controller('nav-ctrl', ['$scope', 'userDataFactory', function($scope, userDataFactory) {
 		userDataFactory.userData()
 			.success(function(resp) {

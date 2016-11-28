@@ -6,13 +6,13 @@
 			<md-list flex ng-repeat="item in info">
 		        <md-list-item class="md-3-line" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
-		        		<span><strong>Activites</strong></span>
-		        		<ul class="unorderd_list" ng-repeat="n in item.activities track by $index"">
-		        			<li>	
-		        				<span>{{n}}</span>
-			            		<span>{{ item.activities[n] }}</span>
-		        			</li>
-		        		</ul>
+	        				<span><strong>Activites</strong></span>	
+    				<md-list>
+    					<md-list-item editable-text="item.activities[$index]" ng-repeat="n in item.activities track by $index">		
+	        				<span>{{n}}</span>
+		            		<span>{{ item.activities[n] }}</span>
+    					</md-list-item>
+    				</md-list>
 		        	</div>
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
@@ -20,12 +20,12 @@
 		        <md-list-item class="md-3-line" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Participation</strong></span>
-			            <ul class="unorderd_list" ng-repeat="n in item.participation track by $index"">
-		        			<li>	
+						<md-list>
+							<md-list-item editable-text="item.participation[$index]" ng-repeat="n in item.participation track by $index">
 		        				<span>{{n}}</span>
 			            		<span>{{ item.participation[n] }}</span>
-		        			</li>
-		        		</ul>
+							</md-list-item>
+						</md-list>	
 		        	</div>
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>
@@ -33,12 +33,12 @@
 		        <md-list-item class="md-3-line" ng-click="null">
 		        	<div class="md-list-item-text" layout="column">
 		        		<span><strong>Awards</strong></span>
-			            <ul class="unorderd_list" ng-repeat="n in item.awards track by $index"">
-		        			<li>	
+		        		<md-list>
+				            <md-list-item editable-text="item.awards[$index]" class="unorderd_list" ng-repeat="n in item.awards track by $index"">	
 		        				<span>{{n}}</span>
 			            		<span>{{ item.awards[n] }}</span>
-		        			</li>
-		        		</ul>
+				            </md-list-item>
+		        		</md-list>
 		        	</div>
 		        	<ng-md-icon icon="edit" style="fill: black" size="20"></ng-md-icon>
 		        </md-list-item>

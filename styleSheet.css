@@ -9,11 +9,11 @@
 .toolbarContent {
 	height: auto;
 }
-.fakeToolbar {
+/*.fakeToolbar {
 	height: 5em !important;
 	width: 100% !important;
 	background: #1A237E;	
-}
+}*/
 .table {
 	width: 100%;
 	height: auto;
@@ -61,16 +61,16 @@
 	color: #9E9E9E;
 }
 .bio {
-	width: 80%;
+	width: 85%;
     margin: auto;
-    margin-top: -6em;
+    margin-top: -5em;
     background: #FAFAFA;
     z-index: 10;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 .card {
-	width: 80%;
+	width: 85%;
     margin: auto;
     background: #FAFAFA;
     z-index: 10;

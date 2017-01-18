@@ -1,0 +1,85 @@
+/*TOOLBAR STYLING*/
+
+.toolbar {
+	height: 20em !important;
+	width: 100% !important;
+	background: #1A237E;
+	backface-visibility: 50%;
+}
+.toolbarContent {
+	height: auto;
+}
+.fakeToolbar {
+	height: 5em !important;
+	width: 100% !important;
+	background: #1A237E;	
+}
+.table {
+	width: 100%;
+	height: auto;
+}
+.profileImg {
+	margin-left: 5em;
+	margin-top: 5em;
+	height: 150px;
+	width: 150px; 
+	border-radius: 5em;
+}
+.tableColumn1 {
+	width: 20em;
+}
+.tableColumn2 {
+	display: flex;
+}
+.profileName {
+	margin-top: 5em;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: white;
+	font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+
+
+/*CONTENT STYLING*/
+.cardHeader {
+	font-family: Roboto,"Helvetica Neue",sans-serif;
+	color: #9E9E9E;
+	position: relative;
+	margin-left: 1em;
+	padding-top: 0.5em;
+}
+.contentHeading {
+	font-family: Roboto,"Helvetica Neue",sans-serif;
+	position: relative;
+	margin-left: 1em;
+}
+.description {
+	font-family: Roboto,"Helvetica Neue",sans-serif;
+	font-size: 13px;
+	margin: 10px;
+	color: #9E9E9E;
+}
+.bio {
+	width: 80%;
+    margin: auto;
+    margin-top: -6em;
+    background: #FAFAFA;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card {
+	width: 80%;
+    margin: auto;
+    background: #FAFAFA;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+/*TAGS STYLING*/
+body {
+	margin: auto;
+}

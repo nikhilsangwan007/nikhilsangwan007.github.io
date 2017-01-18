@@ -1,67 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Profile</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- SCRIPTS -->
-	<script type="text/javascript" src="lib/jquery.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-aria.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-animate.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
-	<script type="text/javascript" src="lib/angular-route.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.7.1/angular-material-icons.min.js"></script> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-xeditable/0.5.0/js/xeditable.min.js"></script>
-
-	<!-- LINKS -->
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angular-xeditable/0.5.0/css/xeditable.min.css"> -->
-
-	<!-- CONTROLLERS -->
-	<script type="text/javascript" src="controllers/mainController.js"></script>
-	<script type="text/javascript" src="controllers/appController.js"></script>
-
-	<!-- STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="style_sheets/common.css">
-	<link rel="stylesheet" type="text/css" href="style_sheets/general.css">
-
-
+	<title>Nikhil Sangwan</title>
+	<link rel="stylesheet" type="text/css" href="styleSheet.css">
 </head>
-<body ng-app="myApp" layout="column"> 
-
-	<!-- TOOLBAR -->
-	<div ng-controller="nav-ctrl">
-		<md-toolbar class="toolbar">
-			<div class="md-toolbar-tools">
-				<h2 class="brand">
-					<span><strong>{{info[0].name}}</strong> Profile</span>
-				</h2>
-				<ng-md-icon class="menu_icon" icon="menu" style="fill: white" size="36" hide></ng-md-icon>	
-			</div>
-			<md-list class="navList" layout="row">
-					<md-list-item class="md-2-line" href="#/general">
-						<div class="md-list-item-text" layout="column">
-							<h3 class="listItem"><strong>General</strong></h3>
-						</div>
-					</md-list-item>
-					<md-list-item class="md-2-line" href="#/academics">
-						<div class="md-list-item-text" layout="column">
-							<h3 class="listItem"><strong>Academics</strong></h3>
-						</div>
-					</md-list-item>
-					<md-list-item class="md-2-line" href="#/extra">
-						<div class="md-list-item-text" layout="column">
-							<h3 class="listItem"><strong>Extra</strong></h3>
-						</div>
-					</md-list-item>	
-				</md-list>
-    </md-toolbar>
+<body>
+	<div class="toolbar">
+		<div class="toolbarContent">
+			<table style="width:100%" class="table">
+				<tr class="tableRow">
+					<th class="tableColumn1">
+						<img alt="img" src="images/crocodile.jpg" class="profileImg"></img>
+					</th>
+					<th class="tableColumn2">
+						<h2 class="profileName">Nikhil Sangwan</h2>
+					</th> 
+				</tr>
+			</table>
+		</div>
 	</div>
-
-	<!-- ROUTED CONTENT -->
-			<md-content ng-view class="templates" layout-fill>
-				ROUTING TEMPLATES COMES HERE
-			</md-content>
+	<div class="fakeToolbar"></div>
+	<div class="content">
+		<div class="bio">
+			<div class="bioContent">
+				<h4 class="cardHeader">Description</h4>
+				<h4 class="contentHeading">Bio</h4>
+				<p class="description">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+				<h4 class="contentHeading">Skills</h4>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

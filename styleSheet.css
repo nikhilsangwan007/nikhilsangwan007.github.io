@@ -82,7 +82,7 @@
 	color: #9E9E9E;
 }
 .bio {
-	width: 85%;
+	width: 90%;
     margin: auto;
     margin-top: -5em;
     background: white;
@@ -96,7 +96,7 @@
 	transition: 0.3s;
 }
 .card {
-	width: 85%;
+	width: 90%;
     margin: auto;
     background: white;
     border-radius: 5px;

@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styleSheet.css">
 </head>
-<body>
+<body ng-app="app" ng-controller="appController">
 	<div class="toolbar">
 		<div class="toolbarContent">
 			<table class="table">
@@ -14,7 +14,9 @@
 						<img alt="img" src="images/crocodile.jpg" class="profileImg"></img>
 					</th>
 					<th class="tableColumn2">
-						<h2 class="profileName">Nikhil Sangwan</h2>
+						<h2 class="profileName">{{name}}</h2>
+						<h2 class="workingAt"><i class="fa fa-suitcase" aria-hidden="true" style="font-size: 1em;"></i>  Jaypee Institute of Informtaion Technology </h2>
+						<h2 class="residingAt"><i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 1em;"></i> Noida</h2>
 					</th> 
 				</tr>
 			</table>
@@ -61,5 +63,15 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- SCRIPTS -->
+
+	<!-- <script type="text/javascript" src="lib/jquery.js"></script> -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-aria.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-animate.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="controllers.js"></script>
+
 </body>
 </html>

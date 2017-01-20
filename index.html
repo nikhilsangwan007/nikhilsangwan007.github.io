@@ -8,18 +8,15 @@
 <body ng-app="app" ng-controller="appController">
 	<div class="toolbar">
 		<div class="toolbarContent">
-			<table class="table">
-				<tr class="tableRow">
-					<th class="tableColumn1">
-						<img alt="img" src="images/crocodile.jpg" class="profileImg"></img>
-					</th>
-					<th class="tableColumn2">
-						<h2 class="profileName">{{info[0].name}}</h2>
-						<h2 class="workingAt"><i class="fa fa-suitcase" aria-hidden="true" style="font-size: 1em;"></i>  Jaypee Institute of Informtaion Technology </h2>
-						<h2 class="residingAt"><i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 1em;"></i> {{info[0].address}}</h2>
-					</th> 
-				</tr>
-			</table>
+			<div class="imageContent">
+				<img alt="img" src="images/crocodile.jpg" class="profileImg"></img>
+			</div>
+			<div class="aboutContent">
+				<h2 class="profileName aboutText">{{info[0].name}}</h2>
+				<!-- <h2 class="email aboutText">{{info[0].email[0]}}</h2> -->
+				<h2 class="workingAt aboutText"><i class="fa fa-suitcase" aria-hidden="true" style="font-size: 1em;"></i> {{info[0].workAt[0]}}</h2>
+				<h2 class="residingAt aboutText"><i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 1em;"></i> {{info[0].address}}</h2>
+			</div> 
 		</div>
 	</div>
 	<!-- <div class="fakeToolbar"></div> -->
@@ -32,11 +29,10 @@
 					{{info[0].about}}
 				</p>
 				<h4 class="contentHeading">Skills</h4>
-				<div class="chipBox" ng-repeat = "data in info[0].skills">
-					<div class="chip">
-						{{data}}
-						<!-- <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span> -->
-					</div>
+				<div class="chipBox">
+					<ul class="chip" ng-repeat = "data in info[0].skills">
+						<li>{{data}}</li>
+					</ul>
 				</div>
 			</div>
 		</div>

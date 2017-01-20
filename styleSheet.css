@@ -6,32 +6,36 @@
 	background: #1A237E;
 	/*backface-visibility: 50%;*/
 }
-.toolbarContent {
+/*.toolbarContent {
+	margin: auto;
 	height: auto;
-}
+}*/
 /*.fakeToolbar {
 	height: 5em !important;
 	width: 100% !important;
 	background: #1A237E;	
 }*/
-.table {
-	width: 100%;
-	height: auto;
+.imageContent {
+	text-align: center;
+	float: left;
+	width: 40%;
 }
 .profileImg {
 	object-fit: cover;
-	margin-left: auto;
+	margin: auto;
 	margin-top: 4em;
-	height: 10em;
-	width: 10em; 
-	border-radius: 1em;
+	max-height: 10em;
+	min-height: 7em;
+	min-width: 7em;
+	max-width: 10em; 
+	border-radius: 5em;
+	max-width: 100%; 
+	/*display:block; */
 }
-.tableColumn1 {
-	width: 20em;
-}
-.tableColumn2 {
-	text-align: left;
-	display: table-row-group;
+.aboutContent {
+	/*font-size: 1.2vw;*/
+	width: 60%;
+	float: left;
 }
 .profileName {
 	margin-top: 4em;
@@ -39,6 +43,14 @@
 	margin-bottom: 0px;
 	font-weight: bold;
 	font-size: 1.5em;
+	color: white;
+	font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+.email {
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 1em;
 	color: white;
 	font-family: Roboto,"Helvetica Neue",sans-serif;
 }
@@ -58,7 +70,9 @@
 	color: white;
 	font-family: Roboto,"Helvetica Neue",sans-serif;
 }
-
+.aboutText {
+	margin-left: 10px;
+}
 
 
 /*CONTENT STYLING*/
@@ -123,6 +137,7 @@
 	transition: 0.3s;
 }
 .chipBox {
+	flex-wrap: wrap; 
 	display: flex;
 	margin-left: 1em;
     margin-right: 1em;
@@ -130,9 +145,11 @@
 }
 .chip {
 	font-family: Roboto,"Helvetica Neue",sans-serif;
+	list-style: none;
 	display: inline-block;
     padding: 0px 20px;
     margin: auto;
+    margin-bottom: 10px;
     height: 30px;
     font-size: 13px;
     line-height: 31px;
@@ -142,21 +159,31 @@
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 500px) {
-	.toolbar {
-		height: 23em !important;
-	}
 	.bio {
-		margin-top: -8em;
+		margin-top: -5em;
 	}
 	.profileName {
-		margin-right: 4em;
+		margin-right: auto;
 	}
-	.profileImg {
+	/*.profileImg {
 		height: 9em;
 		width: 9em;
+	}*/
+}
+@media only screen and (max-width: 320px) {
+	.profileName {
+		font-size: 1em;
+	}
+	.email {
+		font-size: 1em;
+	}
+	.workingAt {
+		font-size: 1em;
+	}
+	.residingAt {
+		font-size: 1em;
 	}
 }
-
 
 /*TAGS STYLING*/
 body {

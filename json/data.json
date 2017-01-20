@@ -1,0 +1,60 @@
+[
+	{
+		"name" : "Nikhil Sangwan",
+		"email" : [
+			"nikhil.sangwan95@gmail.com"
+		],
+		"workAt" : [
+			"Jaypee Institute of Information Technology",
+			"Nethues Technologies pvt. Limited",
+			"instarefr.com"
+		],
+		"address" : "Noida, Sec-62",
+		"about" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+		"skills" : [
+			"Angular",
+			"Angular Material",
+			"HTML5",
+			"CSS",
+			"JavaScript",
+			"Polymer 1.0"
+		],
+		"experience" : {
+			"instarefr.com" : {
+				"post" : "Front End Developer",
+				"details" : "design responsive web pages using twitter bootstrap and angular",
+				"duration" : "sep, 2016 - oct, 2016"
+			},
+			"Nethues Technologies" : {
+				"post" : "Front End Developer",
+				"details" : "design given snippets using polymer, html, css and angular",
+				"duration" : "june, 2016 - july, 2016"
+			}
+		},
+		"education" : {
+			"secondary" : {
+				"institute" : "Mother Divine Public School",
+				"cgpa" : "8.6"
+			},
+			"senior secondary" : {
+				"institute" : "Mother Divine Public School",
+				"cgpa" : "91.66"
+			},
+			"bacholar" : {
+				"institute" : "Jaypee Institute of Information Technology",
+				"cgpa" : "6.1"
+			}
+		},
+		"projects" : {
+			"fundsofhope.org" : {
+				"aboutProject" : "i did something but dont know what",
+				"post" : "Front End Developer"
+		},
+			"letsshopit" : {
+				"aboutProject" : "same as above",
+				"post" : "Front End Developer"
+			}
+			
+		}
+	}
+]

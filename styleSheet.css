@@ -3,7 +3,7 @@
 .toolbar {
 	height: 20em !important;
 	width: 100% !important;
-	background: #1A237E;
+	background: navy;
 	/*backface-visibility: 50%;*/
 }
 /*.toolbarContent {
@@ -106,7 +106,10 @@
 	margin: 25px;
 	margin-top: 5px;
 	padding-bottom: 15px;
-	color: #9E9E9E;
+	color: #757575;
+}
+.tagLine {
+	color: #3F51B5;
 }
 .bio {
 	width: 85%;

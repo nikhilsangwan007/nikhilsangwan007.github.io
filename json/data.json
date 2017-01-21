@@ -10,7 +10,8 @@
 			"instarefr.com"
 		],
 		"address" : "Noida, Sec-62",
-		"about" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+		"profileImg" : "images/profileImg.jpg",
+		"about" : "Hi there!!! Let me start with things i like most, i.e sketching, gaming and last but not the least web designing. I do sketching since my childhood and mainly draw anime and cartoon based sketches. I start gaming in collage and a big fan of counter strike 1.6 and counter strike GO, also participated in several events and secure 1st rank in JSS collage. I love web designing as much as i love my other hobbies. I love to design user interface and aminly work with Angularjs. I am highly motiveted about my career as web developer.",
 		"skills" : [
 			"Angular",
 			"Angular Material",
@@ -22,12 +23,12 @@
 		"experience" : {
 			"instarefr.com" : {
 				"post" : "Front End Developer",
-				"details" : "design responsive web pages using twitter bootstrap and angular",
+				"details" : "During the intern, i play the role of front-end developer and design few pages. Frameworks i used were Twitter Bootstrap and AngularJs. Back-end was written in PHP and project was build in PHP framework itself named codeigniter 3.0",
 				"duration" : "sep, 2016 - oct, 2016"
 			},
 			"Nethues Technologies" : {
 				"post" : "Front End Developer",
-				"details" : "design given snippets using polymer, html, css and angular",
+				"details" : "It was my summer intern and i learn a lots of thing regarding web developing, languages and thier compatibility. I design given snippets using polymer 1.0, plain HTML , CSS and AngularJs.",
 				"duration" : "june, 2016 - july, 2016"
 			}
 		},
@@ -47,11 +48,11 @@
 		},
 		"projects" : {
 			"fundsofhope.org" : {
-				"aboutProject" : "i did something but dont know what",
+				"aboutProject" : "fundsofhope.org is my major project and did the UI task. Design cards, toolbar and other snippets. Work with Angular Material and Angular 1.",
 				"post" : "Front End Developer"
 		},
 			"letsshopit" : {
-				"aboutProject" : "same as above",
+				"aboutProject" : "It was my 3rd semester project. I developed a mini shopping website using Bootstrap, HTML, CSS, JavaScript and mySql.",
 				"post" : "Front End Developer"
 			}
 			

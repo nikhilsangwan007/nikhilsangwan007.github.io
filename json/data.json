@@ -12,7 +12,7 @@
 		"tagLine" : "MAY BE IM NOT THE BRIGHTEST STAR OUT THERE, BUT I HAVE THE POTENTIAL TO BECOME A SUPERNOVA!",
 		"address" : "Noida, Sec-62",
 		"profileImg" : "images/profileImg.jpg",
-		"about" : "Hi there!!! Let me start with things i like most, i.e sketching, gaming and last but not the least web designing. I do sketching since my childhood and mainly draw anime and cartoon based sketches. I start gaming in collage and a big fan of counter strike 1.6 and counter strike GO, also participated in several events and secure 1st rank in JSS collage. I love web designing as much as i love my other hobbies. I love to design user interface and aminly work with Angularjs. I am highly motiveted about my career as web developer.",
+		"about" : "Hi there!!! Let me start with things i like most, i.e sketching, gaming and last but not the least web designing. I do sketching since my childhood and mainly draw anime and cartoon based sketches. I start gaming in collage and a big fan of counter strike 1.6 and counter strike GO, also participated in several events and secure 1st rank in JSS collage. I love web designing as much as i love my other hobbies. I love to design user interface and mainly works with Angularjs. I am highly motiveted about my career as web developer.",
 		"skills" : [
 			"Angular",
 			"Angular Material",
@@ -21,6 +21,9 @@
 			"JavaScript",
 			"Polymer 1.0"
 		],
+		"contributions" : {
+			"Fix #2620" : "https://github.com/oppia/oppia/pull/2971"
+		},
 		"experience" : {
 			"instarefr.com" : {
 				"post" : "Front End Developer",

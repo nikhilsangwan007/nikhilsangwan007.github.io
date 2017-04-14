@@ -16,8 +16,10 @@
 		"skills" : [
 			"Angular",
 			"Angular Material",
+			"UIKIT",
+			"React + Redux",
 			"HTML5",
-			"CSS",
+			"CSS3",
 			"JavaScript",
 			"Polymer 1.0"
 		],
@@ -51,13 +53,50 @@
 			}
 		},
 		"projects" : {
+			"summonAPI" : {
+				"aboutProject" : "summonAPI is a platform for web developers who seeks for readymade APIs. Developers can use and share their APIs in private and public mode.",
+				"post" : "Front End Developer",
+				"technologies" : [
+					"HTML5",
+					"CSS3",
+					"Angular",
+					"Angular-Material",
+					"Nodejs"
+				]
+			},
+
+			"historewind" : {
+				"aboutProject" : "historewind presents the most significant historic events occured in history on today's date. It shows total 20 feeds divided into two digests (morning and evening).",
+				"post" : "Front End Developer",
+				"technologies" : [
+					"HTML5",
+					"CSS3",
+					"Angular",
+					"Angular-Material",
+					"Python"
+				]
+			},
+
 			"fundsofhope.org" : {
-				"aboutProject" : "fundsofhope.org is my major project and did the UI task. Design cards, toolbar and other snippets. Work with Angular Material and Angular 1.",
-				"post" : "Front End Developer"
+				"aboutProject" : "fundsofhope is a crowd funding platform. Where NGOs can present their ideas, projects and public can fund and help them accordingly. User can keep track of its funding.",
+				"post" : "Front End Developer",
+				"technologies" : [
+					"HTML5",
+					"CSS3",
+					"Angular",
+					"Angular-Material",
+					"Django"
+				]
 		},
 			"letsshopit" : {
-				"aboutProject" : "It was my 3rd semester project. I developed a mini shopping website using Bootstrap, HTML, CSS, JavaScript and mySql.",
-				"post" : "Front End Developer"
+				"aboutProject" : "It was my 3rd semester project. letsshopit is a very basic shopping webapp, which let you buy stuff.",
+				"post" : "Front End Developer",
+				"technologies" : [
+					"HTML",
+					"CSS",
+					"Bootstrap",
+					"JavaScript"
+				]
 			}
 			
 		}

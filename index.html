@@ -68,11 +68,16 @@
 		<!-- PROJECTS -->
 		<div class="projects card">
 			<div class="cardContent">
-				<h4 class="cardHeader">Pojects</h4>
+				<h4 class="cardHeader">Projects</h4>
 				<div ng-repeat="(key, value) in info[0].projects">
 					<h3 class="contentHeading">{{key}}</h3>
 					<h4 class="contentSubHeading">{{value.post}}</h4>
 					<p class="description">{{value.aboutProject}}</p>
+					<div class="chipBox">
+						<ul class="chip" ng-repeat="data in value.technologies">
+							<li>{{data}}</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

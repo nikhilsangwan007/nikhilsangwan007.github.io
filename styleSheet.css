@@ -1,5 +1,7 @@
 /*TOOLBAR STYLING*/
-
+::-webkit-scrollbar {
+	display: none;
+}
 .toolbar {
 	height: 20em !important;
 	width: 100% !important;
@@ -104,9 +106,9 @@
 	color: #757575;
 	font-family: Roboto,"Helvetica Neue",sans-serif;
 	font-size: 13px;
-	margin: 25px;
+	padding: 25px;
 	margin-top: 5px;
-	padding-bottom: 15px;
+	margin-bottom: 5px;
 }
 .tagLine {
 	color: #3F51B5;
@@ -163,7 +165,7 @@
 	list-style: none;
 	color: #757575;
 	font-size: 13px;
-	padding-left: 0px;
+	padding: 20px;
 }
 .contLinks a {
 	color: #757575;

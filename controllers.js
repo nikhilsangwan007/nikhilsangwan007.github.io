@@ -17,6 +17,6 @@ angular.module('app', [])
 		dataFactory.userData()
 			.success(function(resp) {
 				$scope.info = resp;
-				// console.log($scope.info[0].contributions);
+				console.log($scope.info[0].projects);
 			});
 	}]);
